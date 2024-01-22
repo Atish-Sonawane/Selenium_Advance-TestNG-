@@ -3,19 +3,17 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Selenium_Advance.TestFlow">
+      <class name="extentReport.GenerateExtentReport">
         <methods>
-          <include name="test"/>
-          <include name="afterMethod"/>
-          <include name="beforetest"/>
-          <include name="beforeclass"/>
-          <include name="AfterTest"/>
-          <include name="beforemethod"/>
-          <include name="afterClass"/>
-          <include name="beforesuite"/>
-          <include name="afterSuite"/>
+          <include name="LogoTest"/>
+          <include name="setExtent"/>
+          <include name="Titletest"/>
+          <include name="endReport"/>
+          <include name="startReport"/>
+          <include name="teardown"/>
+          <include name="extentReportsDemo"/>
         </methods>
-      </class> <!-- Selenium_Advance.TestFlow -->
+      </class> <!-- extentReport.GenerateExtentReport -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
