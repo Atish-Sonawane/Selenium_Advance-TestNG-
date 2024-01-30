@@ -1,11 +1,78 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="0" passed="0" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-01-22T22:20:39 IST" name="Default suite" finished-at="2024-01-22T22:20:39 IST" duration-ms="8">
+  <suite started-at="2024-01-27T14:28:57 IST" name="Default suite" finished-at="2024-01-27T14:29:14 IST" duration-ms="17313">
     <groups>
     </groups>
-    <test started-at="2024-01-22T22:20:39 IST" name="Default test" finished-at="2024-01-22T22:20:39 IST" duration-ms="8">
+    <test started-at="2024-01-27T14:28:57 IST" name="Default test" finished-at="2024-01-27T14:29:14 IST" duration-ms="17313">
+      <class name="extentReport.GenerateExtentReport">
+        <test-method is-config="true" signature="setExtent()[pri:0, instance:extentReport.GenerateExtentReport@4d5650ae]" started-at="2024-01-27T14:28:57 IST" name="setExtent" finished-at="2024-01-27T14:28:57 IST" duration-ms="181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExtent -->
+        <test-method is-config="true" signature="startReport()[pri:0, instance:extentReport.GenerateExtentReport@4d5650ae]" started-at="2024-01-27T14:28:57 IST" name="startReport" finished-at="2024-01-27T14:29:04 IST" duration-ms="7070" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method signature="LogoTest()[pri:0, instance:extentReport.GenerateExtentReport@4d5650ae]" started-at="2024-01-27T14:29:04 IST" name="LogoTest" finished-at="2024-01-27T14:29:04 IST" duration-ms="40" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogoTest -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:extentReport.GenerateExtentReport@4d5650ae]" started-at="2024-01-27T14:29:04 IST" name="teardown" finished-at="2024-01-27T14:29:04 IST" duration-ms="95" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LogoTest status=SUCCESS method=GenerateExtentReport.LogoTest()[pri:0, instance:extentReport.GenerateExtentReport@4d5650ae] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="startReport()[pri:0, instance:extentReport.GenerateExtentReport@4d5650ae]" started-at="2024-01-27T14:29:04 IST" name="startReport" finished-at="2024-01-27T14:29:09 IST" duration-ms="4847" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method signature="Titletest()[pri:0, instance:extentReport.GenerateExtentReport@4d5650ae]" started-at="2024-01-27T14:29:09 IST" name="Titletest" finished-at="2024-01-27T14:29:09 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Titletest -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:extentReport.GenerateExtentReport@4d5650ae]" started-at="2024-01-27T14:29:09 IST" name="teardown" finished-at="2024-01-27T14:29:09 IST" duration-ms="95" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Titletest status=SUCCESS method=GenerateExtentReport.Titletest()[pri:0, instance:extentReport.GenerateExtentReport@4d5650ae] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="startReport()[pri:0, instance:extentReport.GenerateExtentReport@4d5650ae]" started-at="2024-01-27T14:29:09 IST" name="startReport" finished-at="2024-01-27T14:29:14 IST" duration-ms="4623" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startReport -->
+        <test-method signature="extentReportsDemo()[pri:0, instance:extentReport.GenerateExtentReport@4d5650ae]" started-at="2024-01-27T14:29:14 IST" name="extentReportsDemo" finished-at="2024-01-27T14:29:14 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReportsDemo -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:extentReport.GenerateExtentReport@4d5650ae]" started-at="2024-01-27T14:29:14 IST" name="teardown" finished-at="2024-01-27T14:29:14 IST" duration-ms="104" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=extentReportsDemo status=SUCCESS method=GenerateExtentReport.extentReportsDemo()[pri:0, instance:extentReport.GenerateExtentReport@4d5650ae] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:extentReport.GenerateExtentReport@4d5650ae]" started-at="2024-01-27T14:29:14 IST" name="endReport" finished-at="2024-01-27T14:29:14 IST" duration-ms="218" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- extentReport.GenerateExtentReport -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

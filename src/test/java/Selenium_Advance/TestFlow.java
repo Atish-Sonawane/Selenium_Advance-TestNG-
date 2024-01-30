@@ -1,4 +1,4 @@
-package Selenium_Advance;
+package selenium_Advance;
 
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterClass;

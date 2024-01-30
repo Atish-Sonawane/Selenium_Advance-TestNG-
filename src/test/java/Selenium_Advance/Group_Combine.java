@@ -1,4 +1,4 @@
-package Selenium_Advance;
+package selenium_Advance;
 
 import org.testng.annotations.Test;
 import org.testng.annotations.Test;

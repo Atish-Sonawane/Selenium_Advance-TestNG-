@@ -28,14 +28,14 @@ import com.aventstack.extentreports.reporter.configuration.Theme;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class GenerateExtentReport {
-	static ExtentHtmlReporter htmlReporter;
-	static ExtentReports report;
+	ExtentHtmlReporter htmlReporter;
+	ExtentReports report;
 	ExtentTest test;
 	WebDriver driver;
 
 	@BeforeTest
-	public static void setExtent() {
-		htmlReporter = new ExtentHtmlReporter(System.getProperty("user.dir")+"/test-output/myReport.html");
+	public void setExtent() {
+		htmlReporter = new ExtentHtmlReporter(System.getProperty("user.dir")+"/test-output/Report/myReport.html");
 
 		htmlReporter.config().setDocumentTitle("Automation Report");
 		htmlReporter.config().setReportName("Functional Report");

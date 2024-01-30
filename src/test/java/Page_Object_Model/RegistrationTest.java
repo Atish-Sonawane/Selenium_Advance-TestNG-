@@ -1,4 +1,4 @@
-package Page_Object_Model;
+package page_Object_Model;
 
 import java.util.concurrent.TimeUnit;
 

@@ -1,4 +1,4 @@
-package Selenium_Advance;
+package selenium_Advance;
 
 import java.io.File;
 import java.io.IOException;

@@ -3,17 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="extentReport.GenerateExtentReport">
+      <class name="listeners.LoginTest">
         <methods>
-          <include name="LogoTest"/>
-          <include name="setExtent"/>
-          <include name="Titletest"/>
-          <include name="endReport"/>
-          <include name="startReport"/>
-          <include name="teardown"/>
-          <include name="extentReportsDemo"/>
+          <include name="loginByFB"/>
         </methods>
-      </class> <!-- extentReport.GenerateExtentReport -->
+      </class> <!-- listeners.LoginTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
